@@ -46,9 +46,6 @@ namespace engine
 	// Forward declarations of our engine classes.
 	//
 	
-	struct Actor;
-	struct Pawn;
-	
 	struct Actor: BaseClass
 	{
 		[[nodiscard]] havok::Vector4f origin() const
